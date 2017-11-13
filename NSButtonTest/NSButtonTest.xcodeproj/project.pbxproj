@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F7DDA921FB2F40500C2EDAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7DDA911FB2F40500C2EDAC /* AppDelegate.m */; };
+		8F7DDA951FB2F40500C2EDAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7DDA941FB2F40500C2EDAC /* ViewController.m */; };
+		8F7DDA971FB2F40500C2EDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7DDA961FB2F40500C2EDAC /* Assets.xcassets */; };
+		8F7DDA9A1FB2F40500C2EDAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7DDA981FB2F40500C2EDAC /* Main.storyboard */; };
+		8F7DDA9D1FB2F40500C2EDAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7DDA9C1FB2F40500C2EDAC /* main.m */; };
+		8F7DDAA61FB2F94900C2EDAC /* CSChangeBGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7DDAA51FB2F94900C2EDAC /* CSChangeBGButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F7DDA8D1FB2F40500C2EDAC /* NSButtonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSButtonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7DDA901FB2F40500C2EDAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F7DDA911FB2F40500C2EDAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F7DDA931FB2F40500C2EDAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F7DDA941FB2F40500C2EDAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F7DDA961FB2F40500C2EDAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F7DDA991FB2F40500C2EDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F7DDA9B1FB2F40500C2EDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F7DDA9C1FB2F40500C2EDAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F7DDA9E1FB2F40500C2EDAC /* NSButtonTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSButtonTest.entitlements; sourceTree = "<group>"; };
+		8F7DDAA41FB2F94900C2EDAC /* CSChangeBGButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSChangeBGButton.h; sourceTree = "<group>"; };
+		8F7DDAA51FB2F94900C2EDAC /* CSChangeBGButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSChangeBGButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F7DDA8A1FB2F40500C2EDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F7DDA841FB2F40500C2EDAC = {
+			isa = PBXGroup;
+			children = (
+				8F7DDA8F1FB2F40500C2EDAC /* NSButtonTest */,
+				8F7DDA8E1FB2F40500C2EDAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F7DDA8E1FB2F40500C2EDAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F7DDA8D1FB2F40500C2EDAC /* NSButtonTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F7DDA8F1FB2F40500C2EDAC /* NSButtonTest */ = {
+			isa = PBXGroup;
+			children = (
+				8F7DDA901FB2F40500C2EDAC /* AppDelegate.h */,
+				8F7DDA911FB2F40500C2EDAC /* AppDelegate.m */,
+				8F7DDA931FB2F40500C2EDAC /* ViewController.h */,
+				8F7DDA941FB2F40500C2EDAC /* ViewController.m */,
+				8F7DDAA41FB2F94900C2EDAC /* CSChangeBGButton.h */,
+				8F7DDAA51FB2F94900C2EDAC /* CSChangeBGButton.m */,
+				8F7DDA961FB2F40500C2EDAC /* Assets.xcassets */,
+				8F7DDA981FB2F40500C2EDAC /* Main.storyboard */,
+				8F7DDA9B1FB2F40500C2EDAC /* Info.plist */,
+				8F7DDA9C1FB2F40500C2EDAC /* main.m */,
+				8F7DDA9E1FB2F40500C2EDAC /* NSButtonTest.entitlements */,
+			);
+			path = NSButtonTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F7DDA8C1FB2F40500C2EDAC /* NSButtonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7DDAA11FB2F40500C2EDAC /* Build configuration list for PBXNativeTarget "NSButtonTest" */;
+			buildPhases = (
+				8F7DDA891FB2F40500C2EDAC /* Sources */,
+				8F7DDA8A1FB2F40500C2EDAC /* Frameworks */,
+				8F7DDA8B1FB2F40500C2EDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSButtonTest;
+			productName = NSButtonTest;
+			productReference = 8F7DDA8D1FB2F40500C2EDAC /* NSButtonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F7DDA851FB2F40500C2EDAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Avazu Holding";
+				TargetAttributes = {
+					8F7DDA8C1FB2F40500C2EDAC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8F7DDA881FB2F40500C2EDAC /* Build configuration list for PBXProject "NSButtonTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F7DDA841FB2F40500C2EDAC;
+			productRefGroup = 8F7DDA8E1FB2F40500C2EDAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F7DDA8C1FB2F40500C2EDAC /* NSButtonTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F7DDA8B1FB2F40500C2EDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7DDA971FB2F40500C2EDAC /* Assets.xcassets in Resources */,
+				8F7DDA9A1FB2F40500C2EDAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F7DDA891FB2F40500C2EDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7DDA951FB2F40500C2EDAC /* ViewController.m in Sources */,
+				8F7DDA9D1FB2F40500C2EDAC /* main.m in Sources */,
+				8F7DDAA61FB2F94900C2EDAC /* CSChangeBGButton.m in Sources */,
+				8F7DDA921FB2F40500C2EDAC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F7DDA981FB2F40500C2EDAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F7DDA991FB2F40500C2EDAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F7DDA9F1FB2F40500C2EDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8F7DDAA01FB2F40500C2EDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8F7DDAA21FB2F40500C2EDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSButtonTest/NSButtonTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FE8QNZJ7C9;
+				INFOPLIST_FILE = NSButtonTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotcunited.NSButtonTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F7DDAA31FB2F40500C2EDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSButtonTest/NSButtonTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FE8QNZJ7C9;
+				INFOPLIST_FILE = NSButtonTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotcunited.NSButtonTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F7DDA881FB2F40500C2EDAC /* Build configuration list for PBXProject "NSButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7DDA9F1FB2F40500C2EDAC /* Debug */,
+				8F7DDAA01FB2F40500C2EDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F7DDAA11FB2F40500C2EDAC /* Build configuration list for PBXNativeTarget "NSButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7DDAA21FB2F40500C2EDAC /* Debug */,
+				8F7DDAA31FB2F40500C2EDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F7DDA851FB2F40500C2EDAC /* Project object */;
+}
