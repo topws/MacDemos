@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F07DEE81F8B65340080A835 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07DEE71F8B65340080A835 /* AppDelegate.m */; };
+		8F07DEEB1F8B65340080A835 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07DEEA1F8B65340080A835 /* ViewController.m */; };
+		8F07DEED1F8B65340080A835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F07DEEC1F8B65340080A835 /* Assets.xcassets */; };
+		8F07DEF01F8B65340080A835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F07DEEE1F8B65340080A835 /* Main.storyboard */; };
+		8F07DEF31F8B65340080A835 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07DEF21F8B65340080A835 /* main.m */; };
+		8F07DEFE1F8B65340080A835 /* FSEventStreamDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07DEFD1F8B65340080A835 /* FSEventStreamDemoTests.m */; };
+		8F07DF091F8B65340080A835 /* FSEventStreamDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07DF081F8B65340080A835 /* FSEventStreamDemoUITests.m */; };
+		8F07DF181F8B6E4E0080A835 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F07DF171F8B6E4E0080A835 /* CoreServices.framework */; };
+		8F311E041F9F23F7003B2B7D /* CSFSEventStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F311E021F9F23F7003B2B7D /* CSFSEventStream.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F07DEFA1F8B65340080A835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F07DEDB1F8B65340080A835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F07DEE21F8B65340080A835;
+			remoteInfo = FSEventStreamDemo;
+		};
+		8F07DF051F8B65340080A835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F07DEDB1F8B65340080A835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F07DEE21F8B65340080A835;
+			remoteInfo = FSEventStreamDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F07DEE31F8B65340080A835 /* FSEventStreamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSEventStreamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F07DEE61F8B65340080A835 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F07DEE71F8B65340080A835 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F07DEE91F8B65340080A835 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F07DEEA1F8B65340080A835 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F07DEEC1F8B65340080A835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F07DEEF1F8B65340080A835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F07DEF11F8B65340080A835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F07DEF21F8B65340080A835 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F07DEF41F8B65340080A835 /* FSEventStreamDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FSEventStreamDemo.entitlements; sourceTree = "<group>"; };
+		8F07DEF91F8B65340080A835 /* FSEventStreamDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSEventStreamDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F07DEFD1F8B65340080A835 /* FSEventStreamDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSEventStreamDemoTests.m; sourceTree = "<group>"; };
+		8F07DEFF1F8B65340080A835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F07DF041F8B65340080A835 /* FSEventStreamDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSEventStreamDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F07DF081F8B65340080A835 /* FSEventStreamDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSEventStreamDemoUITests.m; sourceTree = "<group>"; };
+		8F07DF0A1F8B65340080A835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F07DF171F8B6E4E0080A835 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		8F311E021F9F23F7003B2B7D /* CSFSEventStream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSFSEventStream.m; sourceTree = "<group>"; };
+		8F311E031F9F23F7003B2B7D /* CSFSEventStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSFSEventStream.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F07DEE01F8B65340080A835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F07DF181F8B6E4E0080A835 /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F07DEF61F8B65340080A835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F07DF011F8B65340080A835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F07DEDA1F8B65340080A835 = {
+			isa = PBXGroup;
+			children = (
+				8F07DEE51F8B65340080A835 /* FSEventStreamDemo */,
+				8F07DEFC1F8B65340080A835 /* FSEventStreamDemoTests */,
+				8F07DF071F8B65340080A835 /* FSEventStreamDemoUITests */,
+				8F07DEE41F8B65340080A835 /* Products */,
+				8F07DF161F8B6E4E0080A835 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F07DEE41F8B65340080A835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F07DEE31F8B65340080A835 /* FSEventStreamDemo.app */,
+				8F07DEF91F8B65340080A835 /* FSEventStreamDemoTests.xctest */,
+				8F07DF041F8B65340080A835 /* FSEventStreamDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F07DEE51F8B65340080A835 /* FSEventStreamDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F07DEE61F8B65340080A835 /* AppDelegate.h */,
+				8F07DEE71F8B65340080A835 /* AppDelegate.m */,
+				8F07DEE91F8B65340080A835 /* ViewController.h */,
+				8F07DEEA1F8B65340080A835 /* ViewController.m */,
+				8F311E031F9F23F7003B2B7D /* CSFSEventStream.h */,
+				8F311E021F9F23F7003B2B7D /* CSFSEventStream.m */,
+				8F07DEEC1F8B65340080A835 /* Assets.xcassets */,
+				8F07DEEE1F8B65340080A835 /* Main.storyboard */,
+				8F07DEF11F8B65340080A835 /* Info.plist */,
+				8F07DEF21F8B65340080A835 /* main.m */,
+				8F07DEF41F8B65340080A835 /* FSEventStreamDemo.entitlements */,
+			);
+			path = FSEventStreamDemo;
+			sourceTree = "<group>";
+		};
+		8F07DEFC1F8B65340080A835 /* FSEventStreamDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F07DEFD1F8B65340080A835 /* FSEventStreamDemoTests.m */,
+				8F07DEFF1F8B65340080A835 /* Info.plist */,
+			);
+			path = FSEventStreamDemoTests;
+			sourceTree = "<group>";
+		};
+		8F07DF071F8B65340080A835 /* FSEventStreamDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F07DF081F8B65340080A835 /* FSEventStreamDemoUITests.m */,
+				8F07DF0A1F8B65340080A835 /* Info.plist */,
+			);
+			path = FSEventStreamDemoUITests;
+			sourceTree = "<group>";
+		};
+		8F07DF161F8B6E4E0080A835 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F07DF171F8B6E4E0080A835 /* CoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F07DEE21F8B65340080A835 /* FSEventStreamDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F07DF0D1F8B65340080A835 /* Build configuration list for PBXNativeTarget "FSEventStreamDemo" */;
+			buildPhases = (
+				8F07DEDF1F8B65340080A835 /* Sources */,
+				8F07DEE01F8B65340080A835 /* Frameworks */,
+				8F07DEE11F8B65340080A835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSEventStreamDemo;
+			productName = FSEventStreamDemo;
+			productReference = 8F07DEE31F8B65340080A835 /* FSEventStreamDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F07DEF81F8B65340080A835 /* FSEventStreamDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F07DF101F8B65340080A835 /* Build configuration list for PBXNativeTarget "FSEventStreamDemoTests" */;
+			buildPhases = (
+				8F07DEF51F8B65340080A835 /* Sources */,
+				8F07DEF61F8B65340080A835 /* Frameworks */,
+				8F07DEF71F8B65340080A835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F07DEFB1F8B65340080A835 /* PBXTargetDependency */,
+			);
+			name = FSEventStreamDemoTests;
+			productName = FSEventStreamDemoTests;
+			productReference = 8F07DEF91F8B65340080A835 /* FSEventStreamDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F07DF031F8B65340080A835 /* FSEventStreamDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F07DF131F8B65340080A835 /* Build configuration list for PBXNativeTarget "FSEventStreamDemoUITests" */;
+			buildPhases = (
+				8F07DF001F8B65340080A835 /* Sources */,
+				8F07DF011F8B65340080A835 /* Frameworks */,
+				8F07DF021F8B65340080A835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F07DF061F8B65340080A835 /* PBXTargetDependency */,
+			);
+			name = FSEventStreamDemoUITests;
+			productName = FSEventStreamDemoUITests;
+			productReference = 8F07DF041F8B65340080A835 /* FSEventStreamDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F07DEDB1F8B65340080A835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Avazu Holding";
+				TargetAttributes = {
+					8F07DEE21F8B65340080A835 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					8F07DEF81F8B65340080A835 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F07DEE21F8B65340080A835;
+					};
+					8F07DF031F8B65340080A835 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F07DEE21F8B65340080A835;
+					};
+				};
+			};
+			buildConfigurationList = 8F07DEDE1F8B65340080A835 /* Build configuration list for PBXProject "FSEventStreamDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F07DEDA1F8B65340080A835;
+			productRefGroup = 8F07DEE41F8B65340080A835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F07DEE21F8B65340080A835 /* FSEventStreamDemo */,
+				8F07DEF81F8B65340080A835 /* FSEventStreamDemoTests */,
+				8F07DF031F8B65340080A835 /* FSEventStreamDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F07DEE11F8B65340080A835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F07DEED1F8B65340080A835 /* Assets.xcassets in Resources */,
+				8F07DEF01F8B65340080A835 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F07DEF71F8B65340080A835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F07DF021F8B65340080A835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F07DEDF1F8B65340080A835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F07DEEB1F8B65340080A835 /* ViewController.m in Sources */,
+				8F311E041F9F23F7003B2B7D /* CSFSEventStream.m in Sources */,
+				8F07DEF31F8B65340080A835 /* main.m in Sources */,
+				8F07DEE81F8B65340080A835 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F07DEF51F8B65340080A835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F07DEFE1F8B65340080A835 /* FSEventStreamDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F07DF001F8B65340080A835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F07DF091F8B65340080A835 /* FSEventStreamDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F07DEFB1F8B65340080A835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F07DEE21F8B65340080A835 /* FSEventStreamDemo */;
+			targetProxy = 8F07DEFA1F8B65340080A835 /* PBXContainerItemProxy */;
+		};
+		8F07DF061F8B65340080A835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F07DEE21F8B65340080A835 /* FSEventStreamDemo */;
+			targetProxy = 8F07DF051F8B65340080A835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F07DEEE1F8B65340080A835 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F07DEEF1F8B65340080A835 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F07DF0B1F8B65340080A835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8F07DF0C1F8B65340080A835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8F07DF0E1F8B65340080A835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SSJK4DGTL7;
+				INFOPLIST_FILE = FSEventStreamDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Avazu.FSEventStreamDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F07DF0F1F8B65340080A835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SSJK4DGTL7;
+				INFOPLIST_FILE = FSEventStreamDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Avazu.FSEventStreamDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F07DF111F8B65340080A835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SSJK4DGTL7;
+				INFOPLIST_FILE = FSEventStreamDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Avazu.FSEventStreamDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSEventStreamDemo.app/Contents/MacOS/FSEventStreamDemo";
+			};
+			name = Debug;
+		};
+		8F07DF121F8B65340080A835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SSJK4DGTL7;
+				INFOPLIST_FILE = FSEventStreamDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Avazu.FSEventStreamDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSEventStreamDemo.app/Contents/MacOS/FSEventStreamDemo";
+			};
+			name = Release;
+		};
+		8F07DF141F8B65340080A835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SSJK4DGTL7;
+				INFOPLIST_FILE = FSEventStreamDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Avazu.FSEventStreamDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FSEventStreamDemo;
+			};
+			name = Debug;
+		};
+		8F07DF151F8B65340080A835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SSJK4DGTL7;
+				INFOPLIST_FILE = FSEventStreamDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Avazu.FSEventStreamDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FSEventStreamDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F07DEDE1F8B65340080A835 /* Build configuration list for PBXProject "FSEventStreamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F07DF0B1F8B65340080A835 /* Debug */,
+				8F07DF0C1F8B65340080A835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F07DF0D1F8B65340080A835 /* Build configuration list for PBXNativeTarget "FSEventStreamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F07DF0E1F8B65340080A835 /* Debug */,
+				8F07DF0F1F8B65340080A835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F07DF101F8B65340080A835 /* Build configuration list for PBXNativeTarget "FSEventStreamDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F07DF111F8B65340080A835 /* Debug */,
+				8F07DF121F8B65340080A835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F07DF131F8B65340080A835 /* Build configuration list for PBXNativeTarget "FSEventStreamDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F07DF141F8B65340080A835 /* Debug */,
+				8F07DF151F8B65340080A835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F07DEDB1F8B65340080A835 /* Project object */;
+}
