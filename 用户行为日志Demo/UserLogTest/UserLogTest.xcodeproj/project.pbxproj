@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BCBD00FEAE6E78859A87533 /* libPods-UserLogTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD32C16E97A2462990B8075 /* libPods-UserLogTest.a */; };
 		8FFF40751FBBE19F00252364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF40741FBBE19F00252364 /* AppDelegate.m */; };
 		8FFF40781FBBE19F00252364 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF40771FBBE19F00252364 /* ViewController.m */; };
 		8FFF407A1FBBE19F00252364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FFF40791FBBE19F00252364 /* Assets.xcassets */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E979C9DCF47F259F95B3AAC /* Pods-UserLogTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLogTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserLogTest/Pods-UserLogTest.release.xcconfig"; sourceTree = "<group>"; };
+		507E8C673D85B7F5CB20ACAC /* Pods-UserLogTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLogTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserLogTest/Pods-UserLogTest.debug.xcconfig"; sourceTree = "<group>"; };
+		5FD32C16E97A2462990B8075 /* libPods-UserLogTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UserLogTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFF40701FBBE19F00252364 /* UserLogTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserLogTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFF40731FBBE19F00252364 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8FFF40741FBBE19F00252364 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,17 +36,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BCBD00FEAE6E78859A87533 /* libPods-UserLogTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		125A917AA0A30A04B775E78F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				507E8C673D85B7F5CB20ACAC /* Pods-UserLogTest.debug.xcconfig */,
+				0E979C9DCF47F259F95B3AAC /* Pods-UserLogTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2AEE8ED33D34B022C154B83A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FD32C16E97A2462990B8075 /* libPods-UserLogTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8FFF40671FBBE19F00252364 = {
 			isa = PBXGroup;
 			children = (
 				8FFF40721FBBE19F00252364 /* UserLogTest */,
 				8FFF40711FBBE19F00252364 /* Products */,
+				125A917AA0A30A04B775E78F /* Pods */,
+				2AEE8ED33D34B022C154B83A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FFF40841FBBE19F00252364 /* Build configuration list for PBXNativeTarget "UserLogTest" */;
 			buildPhases = (
+				BC4AB7AEB2D66A596D481EA1 /* [CP] Check Pods Manifest.lock */,
 				8FFF406C1FBBE19F00252364 /* Sources */,
 				8FFF406D1FBBE19F00252364 /* Frameworks */,
 				8FFF406E1FBBE19F00252364 /* Resources */,
+				E54B5C7C4703BF27CA9BA8EF /* [CP] Embed Pods Frameworks */,
+				2E12CC6C2F0CCC09BB16B065 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -102,6 +129,11 @@
 					8FFF406F1FBBE19F00252364 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -134,6 +166,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E12CC6C2F0CCC09BB16B065 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserLogTest/Pods-UserLogTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4AB7AEB2D66A596D481EA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E54B5C7C4703BF27CA9BA8EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserLogTest/Pods-UserLogTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8FFF406C1FBBE19F00252364 /* Sources */ = {
@@ -265,9 +345,9 @@
 		};
 		8FFF40851FBBE19F00252364 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 507E8C673D85B7F5CB20ACAC /* Pods-UserLogTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = UserLogTest/UserLogTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FE8QNZJ7C9;
@@ -280,9 +360,9 @@
 		};
 		8FFF40861FBBE19F00252364 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E979C9DCF47F259F95B3AAC /* Pods-UserLogTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = UserLogTest/UserLogTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FE8QNZJ7C9;
