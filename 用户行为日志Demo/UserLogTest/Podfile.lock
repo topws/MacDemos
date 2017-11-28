@@ -1,12 +1,12 @@
 PODS:
-  - SSZipArchive (2.0.2)
+  - objective-zip (1.0.5)
 
 DEPENDENCIES:
-  - SSZipArchive (~> 2.0.2)
+  - objective-zip (~> 1.0.5)
 
 SPEC CHECKSUMS:
-  SSZipArchive: 5fdf578dbbb60000b23439f80fa04e81d00740ee
+  objective-zip: 41b1408cebffceb6b9d15ad691506707e390d359
 
-PODFILE CHECKSUM: c80ab76de4cce15e5d2d181665df658455e9dc44
+PODFILE CHECKSUM: 6bf776237e77236e025952313329e225b1e46b59
 
 COCOAPODS: 1.2.1

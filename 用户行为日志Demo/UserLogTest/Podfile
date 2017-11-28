@@ -6,6 +6,6 @@ target 'UserLogTest' do
   # use_frameworks!
 
   # Pods for UserLogTest
-  pod 'SSZipArchive', '~> 2.0.2'
-
+#  pod 'SSZipArchive', '~> 2.0.2'
+  pod 'objective-zip', '~> 1.0.5'
 end

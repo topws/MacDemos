@@ -13,6 +13,7 @@
 		8FFF407A1FBBE19F00252364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FFF40791FBBE19F00252364 /* Assets.xcassets */; };
 		8FFF407D1FBBE19F00252364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FFF407B1FBBE19F00252364 /* Main.storyboard */; };
 		8FFF40801FBBE19F00252364 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF407F1FBBE19F00252364 /* main.m */; };
+		8FFF40881FBE8B3400252364 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFF40871FBE8B3400252364 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8FFF407E1FBBE19F00252364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FFF407F1FBBE19F00252364 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8FFF40811FBBE19F00252364 /* UserLogTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UserLogTest.entitlements; sourceTree = "<group>"; };
+		8FFF40871FBE8B3400252364 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FFF40881FBE8B3400252364 /* libz.tbd in Frameworks */,
 				8BCBD00FEAE6E78859A87533 /* libPods-UserLogTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,6 +58,7 @@
 		2AEE8ED33D34B022C154B83A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8FFF40871FBE8B3400252364 /* libz.tbd */,
 				5FD32C16E97A2462990B8075 /* libPods-UserLogTest.a */,
 			);
 			name = Frameworks;

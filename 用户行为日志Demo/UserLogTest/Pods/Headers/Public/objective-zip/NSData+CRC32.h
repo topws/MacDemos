@@ -1,0 +1,1 @@
+../../../objective-zip/Objective-Zip/NSData+CRC32.h
