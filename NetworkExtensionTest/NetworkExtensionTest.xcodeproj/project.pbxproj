@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F7AEE461FD64F130086CBAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AEE451FD64F130086CBAC /* AppDelegate.m */; };
+		8F7AEE491FD64F130086CBAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AEE481FD64F130086CBAC /* ViewController.m */; };
+		8F7AEE4B1FD64F130086CBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AEE4A1FD64F130086CBAC /* Assets.xcassets */; };
+		8F7AEE4E1FD64F130086CBAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AEE4C1FD64F130086CBAC /* Main.storyboard */; };
+		8F7AEE511FD64F130086CBAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AEE501FD64F130086CBAC /* main.m */; };
+		8F7AEE601FD650590086CBAC /* AppProxyProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AEE5F1FD650590086CBAC /* AppProxyProvider.m */; };
+		8F7AEE651FD650590086CBAC /* NExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8F7AEE5C1FD650590086CBAC /* NExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8F7AEEA51FD946010086CBAC /* PacketTunnelProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AEEA41FD946010086CBAC /* PacketTunnelProvider.m */; };
+		8F7AEEB11FDA585E0086CBAC /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7AEEB01FDA585E0086CBAC /* NetworkExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F7AEE631FD650590086CBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F7AEE391FD64F120086CBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F7AEE5B1FD650590086CBAC;
+			remoteInfo = NExtension;
+		};
+		8F7AEEA71FD946010086CBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F7AEE391FD64F120086CBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F7AEE9E1FD946010086CBAC;
+			remoteInfo = PTProvider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F7AEE691FD650590086CBAC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8F7AEE651FD650590086CBAC /* NExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8F7AEE411FD64F130086CBAC /* NetworkExtensionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkExtensionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7AEE441FD64F130086CBAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F7AEE451FD64F130086CBAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F7AEE471FD64F130086CBAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F7AEE481FD64F130086CBAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F7AEE4A1FD64F130086CBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F7AEE4D1FD64F130086CBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F7AEE4F1FD64F130086CBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F7AEE501FD64F130086CBAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F7AEE521FD64F130086CBAC /* NetworkExtensionTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetworkExtensionTest.entitlements; sourceTree = "<group>"; };
+		8F7AEE5C1FD650590086CBAC /* NExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7AEE5E1FD650590086CBAC /* AppProxyProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppProxyProvider.h; sourceTree = "<group>"; };
+		8F7AEE5F1FD650590086CBAC /* AppProxyProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppProxyProvider.m; sourceTree = "<group>"; };
+		8F7AEE611FD650590086CBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F7AEE621FD650590086CBAC /* NExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NExtension.entitlements; sourceTree = "<group>"; };
+		8F7AEE9F1FD946010086CBAC /* PTProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PTProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7AEEA21FD946010086CBAC /* PTProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PTProvider.entitlements; sourceTree = "<group>"; };
+		8F7AEEA31FD946010086CBAC /* PacketTunnelProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketTunnelProvider.h; sourceTree = "<group>"; };
+		8F7AEEA41FD946010086CBAC /* PacketTunnelProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacketTunnelProvider.m; sourceTree = "<group>"; };
+		8F7AEEA61FD946010086CBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F7AEEB01FDA585E0086CBAC /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F7AEE3E1FD64F130086CBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7AEE591FD650590086CBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7AEEB11FDA585E0086CBAC /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7AEE9C1FD946010086CBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F7AEE381FD64F120086CBAC = {
+			isa = PBXGroup;
+			children = (
+				8F7AEE431FD64F130086CBAC /* NetworkExtensionTest */,
+				8F7AEE5D1FD650590086CBAC /* NExtension */,
+				8F7AEEA01FD946010086CBAC /* PTProvider */,
+				8F7AEE421FD64F130086CBAC /* Products */,
+				8F7AEEAF1FDA585E0086CBAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F7AEE421FD64F130086CBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F7AEE411FD64F130086CBAC /* NetworkExtensionTest.app */,
+				8F7AEE5C1FD650590086CBAC /* NExtension.appex */,
+				8F7AEE9F1FD946010086CBAC /* PTProvider.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F7AEE431FD64F130086CBAC /* NetworkExtensionTest */ = {
+			isa = PBXGroup;
+			children = (
+				8F7AEE441FD64F130086CBAC /* AppDelegate.h */,
+				8F7AEE451FD64F130086CBAC /* AppDelegate.m */,
+				8F7AEE471FD64F130086CBAC /* ViewController.h */,
+				8F7AEE481FD64F130086CBAC /* ViewController.m */,
+				8F7AEE4A1FD64F130086CBAC /* Assets.xcassets */,
+				8F7AEE4C1FD64F130086CBAC /* Main.storyboard */,
+				8F7AEE4F1FD64F130086CBAC /* Info.plist */,
+				8F7AEE501FD64F130086CBAC /* main.m */,
+				8F7AEE521FD64F130086CBAC /* NetworkExtensionTest.entitlements */,
+			);
+			path = NetworkExtensionTest;
+			sourceTree = "<group>";
+		};
+		8F7AEE5D1FD650590086CBAC /* NExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8F7AEE5E1FD650590086CBAC /* AppProxyProvider.h */,
+				8F7AEE5F1FD650590086CBAC /* AppProxyProvider.m */,
+				8F7AEE611FD650590086CBAC /* Info.plist */,
+				8F7AEE621FD650590086CBAC /* NExtension.entitlements */,
+			);
+			path = NExtension;
+			sourceTree = "<group>";
+		};
+		8F7AEEA01FD946010086CBAC /* PTProvider */ = {
+			isa = PBXGroup;
+			children = (
+				8F7AEEA31FD946010086CBAC /* PacketTunnelProvider.h */,
+				8F7AEEA41FD946010086CBAC /* PacketTunnelProvider.m */,
+				8F7AEEA61FD946010086CBAC /* Info.plist */,
+				8F7AEEA11FD946010086CBAC /* Supporting Files */,
+			);
+			path = PTProvider;
+			sourceTree = "<group>";
+		};
+		8F7AEEA11FD946010086CBAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F7AEEA21FD946010086CBAC /* PTProvider.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F7AEEAF1FDA585E0086CBAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F7AEEB01FDA585E0086CBAC /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F7AEE401FD64F130086CBAC /* NetworkExtensionTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7AEE551FD64F130086CBAC /* Build configuration list for PBXNativeTarget "NetworkExtensionTest" */;
+			buildPhases = (
+				8F7AEE3D1FD64F130086CBAC /* Sources */,
+				8F7AEE3E1FD64F130086CBAC /* Frameworks */,
+				8F7AEE3F1FD64F130086CBAC /* Resources */,
+				8F7AEE691FD650590086CBAC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F7AEE641FD650590086CBAC /* PBXTargetDependency */,
+				8F7AEEA81FD946010086CBAC /* PBXTargetDependency */,
+			);
+			name = NetworkExtensionTest;
+			productName = NetworkExtensionTest;
+			productReference = 8F7AEE411FD64F130086CBAC /* NetworkExtensionTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F7AEE5B1FD650590086CBAC /* NExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7AEE661FD650590086CBAC /* Build configuration list for PBXNativeTarget "NExtension" */;
+			buildPhases = (
+				8F7AEE581FD650590086CBAC /* Sources */,
+				8F7AEE591FD650590086CBAC /* Frameworks */,
+				8F7AEE5A1FD650590086CBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NExtension;
+			productName = NExtension;
+			productReference = 8F7AEE5C1FD650590086CBAC /* NExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8F7AEE9E1FD946010086CBAC /* PTProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7AEEAC1FD946010086CBAC /* Build configuration list for PBXNativeTarget "PTProvider" */;
+			buildPhases = (
+				8F7AEE9B1FD946010086CBAC /* Sources */,
+				8F7AEE9C1FD946010086CBAC /* Frameworks */,
+				8F7AEE9D1FD946010086CBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PTProvider;
+			productName = PTProvider;
+			productReference = 8F7AEE9F1FD946010086CBAC /* PTProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F7AEE391FD64F120086CBAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Avazu Holding";
+				TargetAttributes = {
+					8F7AEE401FD64F130086CBAC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					8F7AEE5B1FD650590086CBAC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					8F7AEE9E1FD946010086CBAC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8F7AEE3C1FD64F120086CBAC /* Build configuration list for PBXProject "NetworkExtensionTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F7AEE381FD64F120086CBAC;
+			productRefGroup = 8F7AEE421FD64F130086CBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F7AEE401FD64F130086CBAC /* NetworkExtensionTest */,
+				8F7AEE5B1FD650590086CBAC /* NExtension */,
+				8F7AEE9E1FD946010086CBAC /* PTProvider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F7AEE3F1FD64F130086CBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7AEE4B1FD64F130086CBAC /* Assets.xcassets in Resources */,
+				8F7AEE4E1FD64F130086CBAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7AEE5A1FD650590086CBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7AEE9D1FD946010086CBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F7AEE3D1FD64F130086CBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7AEE491FD64F130086CBAC /* ViewController.m in Sources */,
+				8F7AEE511FD64F130086CBAC /* main.m in Sources */,
+				8F7AEE461FD64F130086CBAC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7AEE581FD650590086CBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7AEE601FD650590086CBAC /* AppProxyProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7AEE9B1FD946010086CBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7AEEA51FD946010086CBAC /* PacketTunnelProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F7AEE641FD650590086CBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F7AEE5B1FD650590086CBAC /* NExtension */;
+			targetProxy = 8F7AEE631FD650590086CBAC /* PBXContainerItemProxy */;
+		};
+		8F7AEEA81FD946010086CBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F7AEE9E1FD946010086CBAC /* PTProvider */;
+			targetProxy = 8F7AEEA71FD946010086CBAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F7AEE4C1FD64F130086CBAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F7AEE4D1FD64F130086CBAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F7AEE531FD64F130086CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8F7AEE541FD64F130086CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8F7AEE561FD64F130086CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FE8QNZJ7C9;
+				INFOPLIST_FILE = NetworkExtensionTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotcunited.NetworkExtensionTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		8F7AEE571FD64F130086CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FE8QNZJ7C9;
+				INFOPLIST_FILE = NetworkExtensionTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotcunited.NetworkExtensionTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		8F7AEE671FD650590086CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NExtension/NExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE8QNZJ7C9;
+				INFOPLIST_FILE = NExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotcunited.NetworkExtensionTest.NExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8F7AEE681FD650590086CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NExtension/NExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE8QNZJ7C9;
+				INFOPLIST_FILE = NExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotcunited.NetworkExtensionTest.NExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8F7AEEAA1FD946010086CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PTProvider/PTProvider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE8QNZJ7C9;
+				INFOPLIST_FILE = PTProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotcunited.NetworkExtensionTest.PTProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8F7AEEAB1FD946010086CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PTProvider/PTProvider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE8QNZJ7C9;
+				INFOPLIST_FILE = PTProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotcunited.NetworkExtensionTest.PTProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F7AEE3C1FD64F120086CBAC /* Build configuration list for PBXProject "NetworkExtensionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7AEE531FD64F130086CBAC /* Debug */,
+				8F7AEE541FD64F130086CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F7AEE551FD64F130086CBAC /* Build configuration list for PBXNativeTarget "NetworkExtensionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7AEE561FD64F130086CBAC /* Debug */,
+				8F7AEE571FD64F130086CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F7AEE661FD650590086CBAC /* Build configuration list for PBXNativeTarget "NExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7AEE671FD650590086CBAC /* Debug */,
+				8F7AEE681FD650590086CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F7AEEAC1FD946010086CBAC /* Build configuration list for PBXNativeTarget "PTProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7AEEAA1FD946010086CBAC /* Debug */,
+				8F7AEEAB1FD946010086CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F7AEE391FD64F120086CBAC /* Project object */;
+}

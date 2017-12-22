@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-
+@interface ViewController()
+@property (nonatomic,strong)NSTimer * timer;
+@end
 @implementation ViewController
 - (IBAction)uninstallSelf:(id)sender {
 	
@@ -24,8 +26,11 @@
 	}
 }
 - (IBAction)setUserId:(id)sender {
-	[[NSUserDefaults standardUserDefaults] setObject:@"190" forKey:@"userId"];
+	[[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"userId"];
 	[[NSUserDefaults standardUserDefaults] synchronize];
+	
+	[self.timer invalidate];
+	self.timer = nil;
 }
 - (IBAction)getUserID:(id)sender {
 	//即使卸载后，用户偏好设置依然能够给取到值，真他么尴尬
@@ -38,9 +43,12 @@
 
 	// Do any additional setup after loading the view.
 	
+	self.timer = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(lunxun) userInfo:nil repeats:YES];
 	
 }
-
+- (void)lunxun{
+	NSLog(@"lunxun");
+}
 
 - (void)setRepresentedObject:(id)representedObject {
 	[super setRepresentedObject:representedObject];
