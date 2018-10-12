@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14313.18"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="QuotesViewController" customModule="Quotes" customModuleProvider="target">
+            <connections>
+                <outlet property="nextButton" destination="Nak-g5-OrE" id="RKj-a4-bcD"/>
+                <outlet property="preButton" destination="OLX-7K-a6Q" id="YYP-th-YNv"/>
+                <outlet property="titleTextField" destination="dTP-AH-c8b" id="tuF-QU-Eah"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="230"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="OLX-7K-a6Q">
+                    <rect key="frame" x="9" y="15" width="30" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="F6X-ie-n7S"/>
+                        <constraint firstAttribute="height" constant="200" id="bzp-L5-CTH"/>
+                    </constraints>
+                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NSGoLeftTemplate" imagePosition="only" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CC7-eI-hhE">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="clickPreButton:" target="-2" id="AzH-gD-b2q"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Nak-g5-OrE">
+                    <rect key="frame" x="361" y="15" width="30" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="2hK-Fo-waH"/>
+                    </constraints>
+                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NSGoRightTemplate" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dx9-MB-Dtf">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="clickNextButtom:" target="-2" id="i4f-Ud-4U2"/>
+                    </connections>
+                </button>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dTP-AH-c8b">
+                    <rect key="frame" x="67" y="90" width="266" height="51"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="262" id="NPG-OK-eWN"/>
+                        <constraint firstAttribute="height" constant="51" id="qs1-bA-Z64"/>
+                    </constraints>
+                    <textFieldCell key="cell" alignment="center" title="Label" id="9sQ-5V-CMK">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <action selector="quoteLabel:" target="-2" id="pYh-B9-WaF"/>
+                    </connections>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Oyz-tE-nuf">
+                    <rect key="frame" x="147" y="23" width="106" height="32"/>
+                    <buttonCell key="cell" type="push" title="Quit Quote" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="VrS-7I-XJD">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="clickQuitButton:" target="-2" id="cTN-WA-7Fs"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="dTP-AH-c8b" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="B2X-ga-Psy"/>
+                <constraint firstItem="dTP-AH-c8b" firstAttribute="leading" secondItem="OLX-7K-a6Q" secondAttribute="trailing" constant="30" id="LW0-YB-ECh"/>
+                <constraint firstItem="Nak-g5-OrE" firstAttribute="height" secondItem="OLX-7K-a6Q" secondAttribute="height" id="MOp-Ud-4nN"/>
+                <constraint firstItem="Nak-g5-OrE" firstAttribute="leading" secondItem="dTP-AH-c8b" secondAttribute="trailing" constant="30" id="ceb-5J-ACO"/>
+                <constraint firstItem="Oyz-tE-nuf" firstAttribute="centerX" secondItem="dTP-AH-c8b" secondAttribute="centerX" id="gbg-GR-5mv"/>
+                <constraint firstItem="Nak-g5-OrE" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="jTT-dk-VLf"/>
+                <constraint firstAttribute="trailing" secondItem="Nak-g5-OrE" secondAttribute="trailing" constant="9" id="mPd-ZX-gLb"/>
+                <constraint firstItem="OLX-7K-a6Q" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="9" id="njc-Nh-UFH"/>
+                <constraint firstItem="dTP-AH-c8b" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="oyA-vs-X5c"/>
+                <constraint firstItem="OLX-7K-a6Q" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="wHT-I0-fro"/>
+                <constraint firstAttribute="bottom" secondItem="Oyz-tE-nuf" secondAttribute="bottom" constant="30" id="zWx-du-f1t"/>
+            </constraints>
+            <point key="canvasLocation" x="11" y="76"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="NSGoLeftTemplate" width="9" height="12"/>
+        <image name="NSGoRightTemplate" width="9" height="12"/>
+    </resources>
+</document>
